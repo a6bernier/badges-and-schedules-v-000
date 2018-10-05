@@ -19,6 +19,6 @@ def assign_rooms(speakers)
   assignments
 end
 
-def printer(attendees)
-  assign_rooms(attendees)
+def printer
+  assign_rooms
 end
