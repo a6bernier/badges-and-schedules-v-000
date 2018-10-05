@@ -21,6 +21,6 @@ end
 
 def printer
   [assign_rooms , batch_badge_creator].each do |print|
-    send(print)
+    print
   end
 end
