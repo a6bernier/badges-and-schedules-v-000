@@ -20,6 +20,6 @@ def assign_rooms(speakers)
 end
 
 def printer
-  badges = batch_badge_creator.split
-  rooms = assign_rooms.split
+  badges << batch_badge_creator.split
+  rooms<< assign_rooms.split
 end
